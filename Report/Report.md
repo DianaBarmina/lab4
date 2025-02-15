@@ -10,7 +10,7 @@ Docker уже был установлен, так что сразу присту
 ### 1. Создание Dockerfile
 Был создан Dockerfile:
 
-![Гугл пинг](images\Screenshot_1.jpg)
+![Гугл пинг](images/Screenshot_1.jpg)
 
 Этот Dockerfile создает образ на основе Ubuntu, обновляет пакетный менеджер и устанавливает пакеты cowsay и fortune.
 
@@ -23,13 +23,13 @@ docker build -t cowsay .
 Затем был запущен контейнер
 На приложенном скриншоте представлены оба варианта:
 
-![Гугл пинг](images\1.jpg)
+![Гугл пинг](images/1.jpg)
 
 
 ### 5. Проверка запущенных контейнеров
 Для проверки запущенных контейнеров была выполнена команда docker ps:
 
-![Гугл пинг](images\2.jpg)
+![Гугл пинг](images/2.jpg)
 
 ---
 
@@ -38,7 +38,7 @@ docker build -t cowsay .
 ### 1. Создание Dockerfile для aafire
 Был создан новый Dockerfile для установки aafire и ping:
 
-![Гугл пинг](images\Screenshot_2.jpg)
+![Гугл пинг](images/Screenshot_2.jpg)
 
 ### 2. Сборка образа
 Был собран Docker-образ с тегом aafire-image:
@@ -49,7 +49,7 @@ docker build -t aafire-image .
 
 Далее были запущены два контейнера:
 
-![Гугл пинг](images\8.jpg)
+![Гугл пинг](images/8.jpg)
 
 ---
 
@@ -62,17 +62,17 @@ docker build -t aafire-image .
 docker network create myNetwork
 ```
 Оба контейнера подключились к сети:
-![Гугл пинг](images\4.jpg)
+![Гугл пинг](images/4.jpg)
 
 Проверка настройки сети:
 
-![Гугл пинг](images\7.jpg)
+![Гугл пинг](images/7.jpg)
 
 ###  Проверка соединения между контейнерами
 Подключение первого контейнера и пинг второго:
-![Гугл пинг](images\5.jpg)
+![Гугл пинг](images/5.jpg)
 Подключение второго контейнера и пинг первого:
-![Гугл пинг](images\6.jpg)
+![Гугл пинг](images/6.jpg)
 
 Связь настроена
 
